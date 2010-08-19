@@ -140,4 +140,4 @@ end
 
 i1 = Isbn_checker.new
 
-i1.check_isbnFile("/home/john/Dropbox/books/JDL-isbns-consolidated-20100816.txt")
+i1.check_isbnFile("isbns.txt")
