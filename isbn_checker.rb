@@ -139,17 +139,5 @@ class Isbn_checker
 end
 
 i1 = Isbn_checker.new
-#i1.calc_checkDigit("978159995168")
-#i1.verify_checkDigit("9781599951683")
-#i1.verify_checkDigit("9780802825285")
-#i1.verify_checkDigit("9780802823151")
-#i1.verify_checkDigit("9780802825155")
-#puts i1.calc_checkDigit("978080282515")
-#i1.verify_checkDigit("9780060738174")
-#i1.verify_checkDigit("0192815245")
-#i1.verify_checkDigit("014044131x")
 
-#i1.check_isbnFile("/home/john/Dropbox/books/JDL-isbns.txt")
-#i1.check_isbnFile("/home/john/Dropbox/books/JDL-isbns-2.txt")
-#i1.check_isbnFile("/home/john/Dropbox/books/JDL-isbns-3.txt")
 i1.check_isbnFile("/home/john/Dropbox/books/JDL-isbns-consolidated-20100816.txt")
