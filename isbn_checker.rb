@@ -149,6 +149,3 @@ class Isbn_checker
   def new
   end
 end
-
-i1 = Isbn_checker.new
-i1.check_isbnFile("isbns.txt")
