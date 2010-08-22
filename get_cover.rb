@@ -28,6 +28,7 @@ require 'isbn_checker.rb'
 
 # config.private.rb contains the following definitions:
 # $libthing_devkey [see http://www.librarything.com/services/keys.php for more info]
+# $cover_dir [where the covers will be stored] (e.g. "/home/user/covers/")
 
 require 'config.private.rb'
 
